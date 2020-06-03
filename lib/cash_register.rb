@@ -1,10 +1,11 @@
 class CashRegister
-attr_accessor :cash_register_with_discount
+attr_accessor :discount
 
 
 def initialize(total = 0, discount = nil)
 @total = total
 if discount != nil 
+  
 
 
 end
