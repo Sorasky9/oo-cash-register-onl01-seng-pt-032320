@@ -7,7 +7,7 @@ def initialize(total = 0, discount = nil)
 if discount != nil
   self.discount = 20
 
-end 
+end
 end
 
 
