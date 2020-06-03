@@ -2,7 +2,7 @@ class CashRegister
 
 
 
-def initialize(total = 0, discount = 20)
+def initialize(total = 0, discount = nil)
 @total = total
 end
 
