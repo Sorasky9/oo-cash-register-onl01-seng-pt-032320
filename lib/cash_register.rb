@@ -4,6 +4,7 @@ attr_accessor :discount
 
 
 def initialize(total = 0, discount = nil)
+  binding.pry
 @total = total
 if discount != nil
   self.discount == 20
