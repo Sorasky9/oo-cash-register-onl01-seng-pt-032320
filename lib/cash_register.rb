@@ -4,11 +4,11 @@ attr_accessor :discount
 
 
 def initialize(total = 0, discount = 20)
-  binding.pry
+  #binding.pry
 @total = total
 if discount = 20
   self.discount
-#binding.pry
+binding.pry
 end
 end
 
