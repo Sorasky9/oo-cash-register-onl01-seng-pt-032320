@@ -5,7 +5,7 @@ attr_accessor :discount
 def initialize(total = 0, discount = nil)
 @total = total
 if discount != nil
-  self.discount = 20
+  self.discount == 20
 
 end
 end
