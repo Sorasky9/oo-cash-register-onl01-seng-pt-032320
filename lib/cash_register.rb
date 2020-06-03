@@ -8,7 +8,7 @@ def initialize(total = 0, discount = nil)
 @total = total
 if discount != nil
   self.discount == 20
-binding.pry
+#binding.pry
 end
 end
 
